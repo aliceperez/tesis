@@ -1,0 +1,214 @@
+body {
+    padding-top: 100px; 
+ 
+}
+.u-btn
+{
+	background-color: #d3d3d3;
+    border: none;
+    -webkit-border-radius: .4em;
+    border-radius: .4em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Lato,sans-serif;
+    font-size: .95em;
+    font-weight: 700;
+    padding: .6em .8em .8em;
+    text-decoration: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -o-transition: .2s;
+    -ms-transition: .2s;
+    transition: .2s;
+    vertical-align: middle;
+    -webkit-box-shadow: inset 0 -.2em rgba(0,0,0,.3);
+    box-shadow: inset 0 -.2em rgba(0,0,0,.3);
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+a
+{
+	text-decoration: none;
+}
+.blue
+{
+	background: #247eb6;
+	border: #247eb6;	
+}
+.btn-Blue
+{
+	width: 250px;
+	background:#247eb6;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+}
+.btn-sky
+{
+	width: 120px;
+	background:#a2d2ef;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+}
+.btn-red
+{
+	width: 250px;
+	background:#c00;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+}
+.btn-big
+{
+	width: 200px;
+	padding: 15px;
+	font-size: 14px;
+}
+.right
+{
+	float: right;
+	margin-top: 20px;
+}
+.navbar-brand
+{
+	color: #fff;
+}
+.login-NavBar
+{
+	background: #247eb6;
+	border: #247eb6;	
+}
+.login-Welcome
+{
+	padding:50px 40px;
+}
+.login-Form
+{
+	padding:40px 10px 0px 0px ;
+}
+.login-FormCreate
+{
+	padding:0px 10px 0px 0px ;
+}
+.login-Btn
+{
+	width: 220px;
+	color: #fff;
+	background: #247eb6;
+	padding: 10px;
+	font-size: 16px;
+	float: right; 
+}
+.login-BtnGo
+{
+	width: 220px;
+	background: #dc4437;
+	padding: 10px;
+	color: #fff;
+
+}
+.login-BtnFb
+{
+	width: 220px;
+	background: #3b5999;
+	padding: 10px;
+	color: #fff;
+}
+.login-Header
+{
+	margin-bottom: 10px
+}
+
+.login-Switch
+{
+	
+	font-size: 12px;
+}
+.separador
+{
+	margin-top: 10px;
+}
+hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #eee -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 0.5px 0;
+  margin: 18px 0;
+}
+.ins-Title
+{
+	color:#247eb6;
+	font-size:50px;
+}
+.ins-Subtitle
+{
+	color:#39c;
+	font-size:16px;
+}
+.ins-Avatar
+{
+	width: 100px;
+	height: 100px;
+	border-radius:50%;
+}
+.ins-Step
+{
+	background: #273b47;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 700;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    width: 44px;
+}
+.ins-Foto
+{
+	display: block;
+}
+.ins-File
+{
+	visibility: hidden;
+	z-index: -999;
+}
+.ins-Payment
+{
+	font-size: 40px;
+}
+.ins-Buttons
+{
+	padding: 30px;
+	float: right;
+}
+.form-control
+{
+	padding: 20px;
+}
+
+.thumbnail
+{
+	width: 250px;
+	margin-bottom: 2px;
+}
