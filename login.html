@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Fitness</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <!-- Navigation -->
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background:#247eb6">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div  class="box-Brand" style=" width:225px;  background:#247eb6">
+                     <img class="lo-Brand" src="images/brand1.png">
+                </div>
+            </div>
+        </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-6 text-center login-Welcome">
+                <img src="images/portada.png">
+<!--                 <h1>Bienvenid@</h1>
+                <p class="lead">Reserve servicios,pague su suscripcion y lleve el control sus medidas</p> -->
+            </div>
+            <div>
+            <div class="col-lg-6 login-Form" id="iniciarCuenta">
+                <div class=" login-Header col-sm-10">
+                    <h2>Inicia Sesion <span class="login-Switch">o<a href="" id="iniciar"> Crea una cuenta</a></span></h2>
+                </div>
+                <form>
+                  <p class="form-group col-sm-10">
+                    <button type="button" class="u-btn login-BtnFb"><i class="fa fa-facebook"></i>  Inicia con Facebook</button>
+                    <button type="button" class="u-btn login-BtnGo"><i class="fa fa-google-plus "></i>  Inicia con Google +</button>
+                  </p>
+                  <div class="separador col-sm-10">
+                    <p class="text-center">o con tu correo y contraseña</p>
+                    <hr/>
+                  </div>
+                  <div class="form-group col-sm-10">
+                    <label for="exampleInputEmail1">Correo o usuario</label>
+                    <input type="email" class="form-control" id="emailLogin" placeholder="Email">
+                  </div>
+                  <div class="form-group col-sm-10">
+                    <label for="exampleInputPassword1">Contraseña</label>
+                    <input type="password" class="form-control" id="passwordLogin" placeholder="Password">
+                  </div>
+                  <div class="checkbox col-sm-10">
+                    <label>
+                      <input type="checkbox"> Recordar mi cuenta 
+                    </label>
+                  </div>
+                  <div class="col-sm-10">
+                        <button type="submit" class="u-btn btn-blue login-Btn" id="btn-NewAcount"> Iniciar </button>
+                  </div>        
+                </form>
+            </div>
+        </div>
+        <div class="col-lg-6 login-FormCreate" id="crearCuenta">
+                <div class=" login-Header col-sm-10">
+                    <h2>Crear cuenta <span class="login-Switch">o<a href="" id="crear"> Iniciar sesion</a></span></h2>
+                </div>
+                <form>
+                  <p class="form-group col-sm-10">
+                    <button type="button" class="u-btn login-BtnFb"><i class="fa fa-facebook"></i> Creala con Facebook</button>
+                    <button type="button" class="u-btn login-BtnGo"><i class="fa fa-google-plus "></i>  Creala con Google +</button>
+                  </p>
+                  <div class="separador col-sm-10">
+                    <p class="text-center">o con tu correo y contraseña</p>
+                    <hr/>
+                  </div>
+                  <div class="form-group col-sm-10">
+                    <label for="exampleInputEmail1">Nombre</label>
+                    <input type="text" class="form-control" id="nameLogin" placeholder="Nombre">
+                  </div>
+                  <div class="form-group col-sm-10">
+                    <label for="exampleInputEmail1">Apellido</label>
+                    <input type="text" class="form-control" id="nastNameLogin" placeholder="Apellido">
+                  </div>
+                  <div class="form-group col-sm-10">
+                    <label for="exampleInputEmail1">Correo</label>
+                    <input type="email" class="form-control" id="emailLogin" placeholder="Email">
+                  </div>
+                  <div class="form-group col-sm-10">
+                    <label for="exampleInputPassword1">Contraseña</label>
+                    <input type="password" class="form-control" id="passwordLogin" placeholder="Password">
+                  </div>
+                  <div class="col-sm-10">
+                        <button type="submit" class="u-btn btn-blue login-Btn" id="btn-CreatAcount"> Crear</button>
+                  </div>        
+                </form>
+            </div>
+        </div>
+                
+    </div>
+
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#btn-CreatAcount').click(function() {
+                window.location.href = 'inscripcion.html';
+                return false;
+            });
+            $('#btn-NewAcount').click(function() {
+                window.location.href = 'dash.html';
+                return false;
+            });
+            $('#crearCuenta').css("display", "none");
+            $('#iniciar').click(function(evento) {
+                evento.preventDefault();
+                $('#iniciarCuenta').css("display", "none");
+                $('#crearCuenta').toggle();
+            });
+            $('#crear').click(function(evento) {
+                evento.preventDefault();
+                $('#crearCuenta').css("display", "none");
+                $('#iniciarCuenta').css("display", "initial");
+                $("h2").css("margin-top", "5px");
+
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>

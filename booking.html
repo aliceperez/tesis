@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin - Bootstrap Admin Template</title>
+    <title>Personal fitness</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -19,6 +19,7 @@
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,7 +35,7 @@
     <div id="wrapper">
 
         <!-- Navigation -->
-        <nav class="navbar navbar-inverse navbar-fixed-top " style=" background-color:#247eb6 ; color:#fff" role="navigation">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -43,15 +44,30 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Personal Fitness</a>
+                <div  class="box-Brand" style=" width:225px;  background:#9c3">
+                     <img class="lo-Brand" src="images/brand2.png">
+                </div>
             </div>
             <!-- Top Menu Items -->
+            <ul class="nav navbar-right top-nav">
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-power-off"></i> Cerrar seccion</a>
+                </li>
             </ul>
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse blue">
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li>
-                        <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                        <a href="dash.html"><i class="fa fa-dashboard"></i> Dashboard</a>
+                    </li>
+                    <li >
+                        <a href="profile.html"><i class="fa fa-user"></i> Perfil</a>
+                    </li>
+                    <li  class="active">
+                        <a href="booking.html"><i class="fa fa-calendar"></i> Reservaciones</a>
+                    </li>
+                    <li>
+                        <a href="history.html"><i class="fa fa-clock-o"></i> Historial</a>
                     </li>
                 </ul>
             </div>
@@ -64,12 +80,7 @@
 
                 <!-- Page Heading -->
                 <div class="row">
-                    <div class="col-lg-12">
-                        <h1 class="page-header">
-                            Blank Page
-                            <!-- small>Subheading</small> -->
-                        </h1>
-                    </div>
+
                 </div>
                 <!-- /.row -->
 

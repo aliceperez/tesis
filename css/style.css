@@ -1,6 +1,16 @@
 body {
     padding-top: 100px; 
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
  
+}
+.box-Brand
+{
+    background: #247eb6;
+    padding: 5px;
+    width: 225px;
+    height: 70px;
+    text-align: center;
 }
 .u-btn
 {
@@ -40,10 +50,11 @@ body {
     -moz-appearance: none;
     appearance: none;
 }
-a
+a :hover
 {
 	text-decoration: none;
 }
+
 .blue
 {
 	background: #247eb6;
@@ -51,15 +62,31 @@ a
 }
 .btn-Blue
 {
-	width: 250px;
+	width: auto;
 	background:#247eb6;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+}
+.btn--Blue
+{
+	width: auto;
+	background:#247eb6;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+}
+.btn--sky
+{
+	width: auto;
+	background:#a2d2ef;
 	padding: 10px;
 	text-align: center;
 	color: #fff;
 }
 .btn-sky
 {
-	width: 120px;
+	width: auto;
 	background:#a2d2ef;
 	padding: 10px;
 	text-align: center;
@@ -67,8 +94,8 @@ a
 }
 .btn-red
 {
-	width: 250px;
-	background:#c00;
+	width: auto;
+	background:#9c3;
 	padding: 10px;
 	text-align: center;
 	color: #fff;
@@ -111,7 +138,6 @@ a
 	color: #fff;
 	background: #247eb6;
 	padding: 10px;
-	font-size: 16px;
 	float: right; 
 }
 .login-BtnGo
@@ -153,6 +179,14 @@ hr {
   border-style: solid none;
   border-width: 0.5px 0;
   margin: 18px 0;
+}
+.ins-Welcome
+{
+	background: #eff2e7;
+	margin-top: -50px;
+	padding: 30px;
+	border-bottom: 1px solid #e0e0e0;
+	box-shadow: 0 3px 9px rgba(0, 0, 0, .2);
 }
 .ins-Title
 {
@@ -202,13 +236,31 @@ hr {
 	padding: 30px;
 	float: right;
 }
-.form-control
-{
-	padding: 20px;
-}
 
+label
+{
+	font-size: 16px;
+	color: #222;
+	font-weight: 400;
+}
 .thumbnail
 {
 	width: 250px;
 	margin-bottom: 2px;
+}
+.modal-Text
+{
+	color: #247eb6;
+	font-size: 30px;
+	font-weight: 700;
+}
+.modal--Text
+{
+	color: #a2d2ef;
+	font-size: 18px;
+	font-weight: 400;
+}
+.a-Underline
+{
+	text-decoration: underline;
 }
