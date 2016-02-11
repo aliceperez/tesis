@@ -266,6 +266,11 @@ ul.alert-dropdown {
     border-radius:50%;
     border: 5px solid #fff;
 }
+.ins-File
+{
+    visibility: hidden;
+    z-index: -999;
+}
 .box-Profile
 {
     display: flex;
@@ -344,4 +349,8 @@ ul.alert-dropdown {
     padding: 10px;
     text-align: center;
     color: #fff;
+}
+.table < tr <td 
+{
+    background: #ccc;
 }

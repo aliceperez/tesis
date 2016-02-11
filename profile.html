@@ -45,7 +45,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <div  class="box-Brand" style=" width:225px;  background:#9c3">
-                     <img class="lo-Brand" src="images/brand2.png">
+                     <img class="lo-Brand" src="images/brand1.png">
                 </div>
             </div>
             <!-- Top Menu Items -->
@@ -79,11 +79,103 @@
             <div class="container-fluid">
 
                 <!-- Page Heading -->
-                <div class="row">
-
+                <div class="row" >
+                    <div class="col-lg-12">
+                        <h1 class="page-header ins-Title">
+                            Editar perfil
+                        </h1>
+                    </div>
+                    <div class="ins-Foto col-md-3">
+                      <div class="thumbnail">
+                          <img id="file-Im" src="http://placehold.it/250x250" alt="...">
+                      </div>
+                      <input class="ins-File" type="file" id="file" />
+                      <a href="#" class="u-btn btn--Blue" id="ins-SelectFile">Busca una foto</a>
+                    </div>
+                    <div class="col-md-9">
+                        <form>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Correo</label>
+                              <input type="email" class="form-control" id="editEmail" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Contraseña</label>
+                              <input type="password" class="form-control" id="editPassword" placeholder="Password">
+                            </div>                  
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Nombre</label>
+                              <input type="text" class="form-control" id="editName" placeholder="Nombre">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Apellido</label>
+                              <input type="text" class="form-control" id="editLastName" placeholder="Apellido">
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Cedula</label>
+                              <input type="text" class="form-control" id="editId" placeholder="Cedula">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Nacionalidad</label>
+                              <input type="password" class="form-control" id="editNacionality" placeholder="Nacionalidad">
+                            </div>                  
+                            <div class="form-group">
+                              <label>Sexo</label>
+                              <select class="form-control">
+                                  <option>Femenino</option>
+                                  <option>Masculino</option>
+                              </select>
+                            </div>
+                            <div class="form-group">
+                              <label for="editTelephone">Telefono</label>
+                              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Telefono">
+                            </div>
+                          </div>
+                        </form>
+                    </div>  
                 </div>
                 <!-- /.row -->
-
+                <div class="row">
+                    <div class="col-md-12" style="margin-top:40px">
+                        <form>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Direccion</label>
+                              <input type="text" class="form-control" id="editAdress" placeholder="Direccion">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Persona de contacto</label>
+                              <input type="text" class="form-control" id="editContactName" placeholder="Nombre">
+                            </div>                  
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Telefono de contacto</label>
+                              <input type="text" class="form-control" id="editContactPhone" placeholder="Telefono">
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Fecha de nacimiento</label>
+                              <input type="date" class="form-control" id="editBirthday" >
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Seguro de salud</label>
+                              <input type="password" class="form-control" id="editNacionality" placeholder="Nombre">
+                            </div>                  
+                            <div class="form-group">
+                              <label for="editTelephone">Tipo de sangre</label>
+                              <input type="text" class="form-control" id="EditBlood" placeholder="Tipo de sangre">
+                            </div>
+                          </div>
+                        </form>
+                    </div>  
+                </div>
+                <!-- /.row -->
+                <div class="row ins-Buttons">
+                  <button type="button" class="u-btn btn--Blue"> Guardar </button>
+                </div>
+                <!-- row -->
             </div>
             <!-- /.container-fluid -->
 
