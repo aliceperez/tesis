@@ -318,6 +318,14 @@ ul.alert-dropdown {
     -moz-appearance: none;
     appearance: none;
 }
+.btn-Blue
+{
+    width: 150px;
+    background:#247eb6;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
 .btn--Blue
 {
     width: auto;
@@ -350,7 +358,7 @@ ul.alert-dropdown {
     text-align: center;
     color: #fff;
 }
-.table < tr <td 
+td
 {
-    background: #ccc;
+    cursor: pointer;
 }

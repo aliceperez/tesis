@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Personal fitness</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/sb-admin.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div  class="box-Brand" style=" width:225px;  background:#9c3">
+                     <img class="lo-Brand" src="images/brand1.png">
+                </div>
+            </div>
+            <!-- Top Menu Items -->
+            <ul class="nav navbar-right top-nav">
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-power-off"></i> Cerrar seccion</a>
+                </li>
+            </ul>
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li>
+                        <a href="dash.html"><i class="fa fa-dashboard"></i> Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="profile.html"><i class="fa fa-user"></i> Perfil</a>
+                    </li>
+                    <li>
+                        <a href="booking.html"><i class="fa fa-calendar"></i> Reservaciones</a>
+                    </li>
+                    <li >
+                        <a href="history.html"><i class="fa fa-clock-o"></i> Historial</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+
+        <div id="page-wrapper">
+
+            <div class="container-fluid">
+
+                <!-- Page Heading -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header ins-Title">
+                            Renovar mi suscripcion
+                        </h1>
+                  <div class="col-md-10">
+                    <div class="form-group col-md-4 question">
+                      <label for="">¿Cuantos meses quieres inscribir?</label>
+                    </div>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="form-group col-md-2">
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="checkbox col-md-6">
+                      <label>
+                        <input type="checkbox"> Solo un dia
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="radio col-md-5">
+                      <label class="ins-Payment">
+                        <input type="radio" value="" checked><i class="fa fa-cc-visa"></i>
+                      </label>
+
+                      <label class="ins-Payment">
+                        <input type="radio" value=""><i class="fa fa-cc-mastercard"></i>
+                      </label>
+                    </div>
+                  </div>
+                  <div id="box-Payment">
+                    <div class="col-md-10">
+                      <div class="form-group col-md-6">
+                        <label for="exampleInputPassword1">Numero de la tarjeta</label>
+                        <input type="text" class="form-control" placeholder="">
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group col-md-4">
+                        <label for="exampleInputPassword1">Numero de seguridad</label>
+                        <input type="text" class="form-control" placeholder="XXX">
+                      </div>
+                    </div>
+                    <div class="col-md-10">
+                        <label class="col-md-6">Fecha de vencimiento</label>
+                    </div>
+                    <div class="col-md-10">
+                      <div class="form-group col-md-3">
+                        <select class="form-control">
+                          <option>Mes</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                          <option>6</option>
+                          <option>7</option>
+                          <option>8</option>
+                          <option>9</option>
+                          <option>10</option>
+                          <option>11</option>
+                          <option>12</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-3">
+                        <select class="form-control">
+                          <option>Año</option>
+                          <option>2016</option>
+                          <option>2017</option>
+                          <option>2018</option>
+                          <option>2019</option>
+                          <option>2020</option>
+                          <option>2021</option>
+                          <option>2022</option>
+                          <option>2023</option>
+                          <option>2024</option>
+                          <option>2025</option>
+                          <option>2026</option>
+                        </select>
+                      </div>
+                         <div class="form-group col-md-8">
+                             <button type="submit" class="u-btn btn-Blue" >Pagar</button>
+                        </div> 
+                    </div> 
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container-fluid -->
+
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
